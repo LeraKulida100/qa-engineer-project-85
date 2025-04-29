@@ -28,6 +28,63 @@
   steps:
     - Открыть страницу входа в систему игры
     - Нажать на кнопку "Войти с помощью Гитхаб"
-    - 
+    - В открывшимся окне авторизации Github ввести учетные данные
+    - Нажать кнопку "Войти" на странице Гитхаб
+    - Пользователь перенаправлен на главную страницу
   expected-result: |
-    Пользователь должен попасть на главную страницу
+    Пользователь вошел с помощью Гитхаб на главную страницу
+
+- summary: |
+    Присоединение пользователя к сущесвующим соревнованиям 
+  requirement: |
+    Проверка успешного присоединения к соревнованиям 
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Перейти в раздел "Лобби"
+    - Найти активное соревнование в списке
+    - Нажать кнопку "Бой"
+    - Пользователь перенаправлен на страницу соревнования
+  expected-result: |
+    Пользователь успешно присоединятся к соревнованию
+
+- summary: |
+    Создание соревнования в Code Battle
+  requirement: |
+    Проверка успешного создания соревнований
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать все условия игры
+    - Нажать кнопку в "Создать битву"
+  expected-result: |
+    Пользователь успешно создал соревнование
+
+- summary: |
+    Выбор сложности игры в Code Batlle
+  requirement: |
+    Проверка успешного выбора сложности игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать уровень сложности игры
+    - Нажать кнопку в "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал уровень сложности игры
+ 
