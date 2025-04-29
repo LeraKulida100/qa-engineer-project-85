@@ -84,7 +84,99 @@
     - Нажать кнопку "Создать игру"
     - Открылось окно создания игры
     - Выбрать уровень сложности игры
-    - Нажать кнопку в "Создать битву"
+    - Нажать кнопку  "Создать битву"
   expected-result: |
     Пользователь успешно выбрал уровень сложности игры
+
+- summary: |
+    Выбор сложности игры в Code Batlle
+  requirement: |
+    Проверка успешного выбора сложности игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать уровень сложности игры
+    - Нажать кнопку  "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал уровень сложности игры
+
+- summary: |
+    Выбор типа игры в Code Batlle
+  requirement: |
+    Проверка успешного выбора типа игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать тип игры
+    - Нажать кнопку  "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал тип игры
+
+- summary: |
+    Выбор длительности игры в Code Batlle
+  requirement: |
+    Проверка успешного выбора длительности игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать контроль времени игры
+    - Нажать кнопку  "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал длительность игры
+
+- summary: |
+    Выбор задания по имени в Code Batlle
+  requirement: |
+    Проверка успешного выбора задания для игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать задание по имени для игры
+    - Нажать кнопку в "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал задание для игры
+
+- summary: |
+    Выбор задания по тегам  в Code Batlle
+  requirement: |
+    Проверка успешного выбора задания для игры
+  prerequisites: |
+    Открыта главная страница 
+    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  test-data: |
+    empty
+  steps:
+    - Открыта главная страница игры
+    - Нажать кнопку "Создать игру"
+    - Открылось окно создания игры
+    - Выбрать задание игры по тегам
+    - Нажать кнопку в "Создать битву"
+  expected-result: |
+    Пользователь успешно выбрал задание игры по тегам
+
+
  
