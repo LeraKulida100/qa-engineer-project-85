@@ -1,1 +1,75 @@
+- summary: |
+    Регистрация пользователя на сайте игры
+  status: pass
 
+- summary: |
+    Проверка входа в игру с помощью учетной записи GitHub
+  status: pass
+  
+- summary: |
+    Присоединение пользователя к сущесвующим соревнованиям 
+  status: pass
+  
+- summary: |
+    Создание соревнования в Code Battle
+  status: pass
+  
+- summary: |
+    Выбор сложности игры в Code Batlle
+  status: pass
+  
+- summary: |
+    Выбор сложности игры в Code Batlle
+  status: pass
+  
+- summary: |
+    Выбор типа игры в Code Batlle
+  status: pass
+  
+- summary: |
+    Выбор длительности игры в Code Batlle
+  status: pass
+  
+- summary: |
+    Выбор задания по имени в Code Batlle
+  status: pass
+  
+- summary: |
+    Выбор задания по тегам  в Code Batlle
+  status: pass
+  
+- summary: |
+    Написание и выполнение кода в игре Code Batlle
+  status: pass
+  
+- summary: |
+    Редактирование кода пользователем в игре Code Batlle
+  status: pass
+  
+- summary: |
+    Предоставленние задач пользователям в игре Code Batlle
+  status: pass
+  
+- summary: |
+    Автоматическая проверка задания на правильность решения
+  status: pass
+  
+- summary: |
+    Проверка общения с участниками в общем чате
+  status: pass
+  
+- summary: |
+    Просмотр рейтинга пользователей в игре Code Batlle
+  status: pass
+  
+- summary: |
+    Просмотр турнирной таблицы в игре Code Batlle
+  status: pass
+  
+- summary: |
+    Совместимость с последними версиями браузеров
+  status: pass
+  
+- summary: |
+    Проверка работы мобильной версии сайта
+  status: pass
