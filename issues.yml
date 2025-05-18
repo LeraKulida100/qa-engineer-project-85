@@ -1,4 +1,4 @@
 issues:
-  - https://github.com/hexlet-codebattle/codebattle/issues/2146
-  - https://github.com/hexlet-codebattle/codebattle/issues/2128
-  - https://github.com/hexlet-codebattle/codebattle/issues/2160
+  - https://github.com/hexlet-codebattle/codebattle/issues/2146 -пользователь не может удалить сообщение в чате
+  - https://github.com/hexlet-codebattle/codebattle/issues/2128 -Кнопка переключения языка отсутствует в интерфейсе
+  - https://github.com/hexlet-codebattle/codebattle/issues/2160 - Невозможно сбросить пароль для зарегистрированного пользователя
