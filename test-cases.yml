@@ -304,7 +304,8 @@
   prerequisites: |
     Пользователь вошел в систему
     Пользователь зашел в раздел "Турнирная таблица"
-    https://codebattle.hexlet.io/tournaments  test-data: |
+    https://codebattle.hexlet.io/tournaments  
+  test-data: |
     empty
   steps:
     - Открыть раздел "Турнирная таблица"
