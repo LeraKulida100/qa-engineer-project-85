@@ -3,8 +3,6 @@
   requirement: |
     При регистрации пользователь должен войти в систему
   prerequisites: |
-    Открыта страница регистрации
-    https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Пользователь должен быть не авторизован на сайте игры
   test-data: |
     Логин = lera Пароль = password
@@ -22,8 +20,6 @@
     Проверка успешного входа в систему с помощью учетной записи
   prerequisites: |
     У пользователя есть учетная запись Github
-    Открыта страница входа
-    https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: |
     empty
   steps:
@@ -40,7 +36,7 @@
   requirement: |
     Проверка успешного присоединения к соревнованиям 
   prerequisites: |
-    Открыта главная страница 
+  
   test-data: |
     empty
   steps:
@@ -58,7 +54,7 @@
   requirement: |
     Проверка успешного создания соревнований
   prerequisites: |
-    Открыта главная страница 
+    
   test-data: |
     empty
   steps:
@@ -77,7 +73,7 @@
   requirement: |
     Проверка успешного выбора сложности игры
   prerequisites: |
-    Открыта главная страница 
+    
   test-data: |
     empty
   steps:
@@ -95,8 +91,7 @@
   requirement: |
     Проверка успешного выбора типа игры
   prerequisites: |
-    Открыта главная страница 
-    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+    
   test-data: |
     empty
   steps:
@@ -113,8 +108,7 @@
   requirement: |
     Проверка успешного выбора длительности игры
   prerequisites: |
-    Открыта главная страница 
-    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  
   test-data: |
     empty
   steps:
@@ -131,8 +125,7 @@
   requirement: |
     Проверка успешного выбора задания для игры
   prerequisites: |
-    Открыта главная страница 
-    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+  
   test-data: |
     empty
   steps:
@@ -149,8 +142,7 @@
   requirement: |
     Проверка успешного выбора задания для игры
   prerequisites: |
-    Открыта главная страница 
-    https://codebattle.hexlet.io/?_gl=1*l1upc3*_gcl_au*MTA4NjM4NTQxNC4xNzQ0NjQ1NjE2*_ga*ODY0Njg5MzAyLjE3NDQ2NDQxODk.*_ga_PM3R85EKHN*MTc0NTk0NTIzNC4zMS4xLjE3NDU5NDUzMjAuNDYuMC4w*_ga_WWGZ6EVHEY*MTc0NTk0NTIzNC4xMDcuMS4xNzQ1OTQ1MzIwLjQ2LjAuMA..#lobby
+     
   test-data: |
     empty
   steps:
@@ -204,7 +196,6 @@
   prerequisites: |
     Пользователь вошел в систему
     Пользователь зашел в раздел "Задачи"
-    https://codebattle.hexlet.io/tasks
   test-data: |
     empty
   steps:
@@ -244,8 +235,6 @@
     Проверка возможности общения участников в игре Code Batlle
   prerequisites: |
     Пользователь вошел в систему
-    Открыта главная страница игры
-    https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -265,7 +254,6 @@
   prerequisites: |
     Пользователь вошел в систему
     Пользователь зашел в раздел "Рейтинг пользователей"
-    https://codebattle.hexlet.io/users
   test-data: |
     empty
   steps:
@@ -287,7 +275,6 @@
   prerequisites: |
     Пользователь вошел в систему
     Пользователь зашел в раздел "Турнирная таблица"
-    https://codebattle.hexlet.io/tournaments  
   test-data: |
     empty
   steps:
