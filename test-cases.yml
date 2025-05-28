@@ -5,6 +5,7 @@
   prerequisites: |
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Пользователь должен быть не авторизован на сайте игры
   test-data: |
     Логин = lera Пароль = password
   steps:
