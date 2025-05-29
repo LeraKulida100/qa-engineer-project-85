@@ -3,7 +3,7 @@
   status: pass
   
 - summary: |
-    Проверка входа в игру с помощью учетной записи GitHub
+    Успешная авторизация пользователя с помощью учетной записи GitHub
   status: pass
   
 - summary: |
@@ -12,10 +12,6 @@
   
 - summary: |
     Создание соревнования в Code Battle
-  status: pass
-  
-- summary: |
-    Выбор сложности игры в Code Batlle
   status: pass
   
 - summary: |
@@ -39,11 +35,11 @@
   status: pass
   
 - summary: |
-    Написание и выполнение кода в игре Code Batlle
+    Успешное выполнение кода в игре
   status: pass
   
 - summary: |
-    Редактирование кода пользователем в игре Code Batlle
+    Успешное редактирование и выполнение измененного кода в игре
   status: pass
   
 - summary: |
@@ -67,9 +63,21 @@
   status: pass
   
 - summary: |
-    Совместимость с последними версиями браузеров
+    Проверка совместимость с последними версиями браузеров Firefox
+  status: pass
+
+- summary: |
+    Проверка совместимость с последними версиями браузеров Google Chrome
   status: pass
   
 - summary: |
-    Проверка работы мобильной версии сайта
+    Корректная работа мобильной версии сайта на iPhone 14 Pro Max
   status: pass
+
+- summary: |
+    Корректная работа мобильной версии сайта на Samsung Galaxy S8+ 
+  status: pass
+  
+- summary: |
+    Проверка возможности участия пользователя в нескольких играх
+  status: fail
