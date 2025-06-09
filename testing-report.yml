@@ -35,7 +35,7 @@ status: pass
 status: pass
 
 - summary: |
-   Успешное выполнение кода в игре
+    Успешное выполнение кода в игре
   status: pass
   
 - summary: |
