@@ -16,23 +16,23 @@
 
 - summary: |
     Выбор сложности игры в Code Battle
-status: pass
+  status: pass
 
 - summary: |
     Выбор типа игры в Code Battle
-status: pass
+  status: pass
 
 - summary: |
     Выбор длительности игры в Code Battle
-status: pass
+  status: pass
 
 - summary: |
     Выбор задания по имени в Code Battle
-status: pass
+  status: pass
 
 - summary: |
     Выбор задания по тегам  в Code Battle
-status: pass
+  status: pass
 
 - summary: |
     Успешное выполнение кода в игре
